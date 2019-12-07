@@ -56,4 +56,27 @@ export default {
             enabled: false,
         }
     },
+    annotations: {
+        xaxis: [{
+            x: 118.79999999999752,
+            strokeDashArray: 5,
+        }],
+        points: [{
+            x: 118.79999999999752,
+            y: 11.287160847617974,
+            seriesIndex: 0,
+            marker: {
+                size: 6,
+                radius: 2,
+            },
+            label: {
+                text: 'Landing',
+                borderColor: 'transparent',
+                style: {
+                    cssClass: 'axis-annotation',
+                    background: 'transparent',
+                }
+            }
+        }]
+    }
 }
