@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/skydiving-ode/static/css/main.b414bf1a.chunk.css",
+    "main.js": "/skydiving-ode/static/js/main.ba104473.chunk.js",
+    "main.js.map": "/skydiving-ode/static/js/main.ba104473.chunk.js.map",
+    "runtime-main.js": "/skydiving-ode/static/js/runtime-main.c8484c37.js",
+    "runtime-main.js.map": "/skydiving-ode/static/js/runtime-main.c8484c37.js.map",
+    "static/js/2.bf44add6.chunk.js": "/skydiving-ode/static/js/2.bf44add6.chunk.js",
+    "static/js/2.bf44add6.chunk.js.map": "/skydiving-ode/static/js/2.bf44add6.chunk.js.map",
+    "index.html": "/skydiving-ode/index.html",
+    "precache-manifest.060665aedeb5efcc11a8cd86e81f84e3.js": "/skydiving-ode/precache-manifest.060665aedeb5efcc11a8cd86e81f84e3.js",
+    "service-worker.js": "/skydiving-ode/service-worker.js",
+    "static/css/main.b414bf1a.chunk.css.map": "/skydiving-ode/static/css/main.b414bf1a.chunk.css.map",
+    "static/js/2.bf44add6.chunk.js.LICENSE": "/skydiving-ode/static/js/2.bf44add6.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8484c37.js",
+    "static/js/2.bf44add6.chunk.js",
+    "static/css/main.b414bf1a.chunk.css",
+    "static/js/main.ba104473.chunk.js"
+  ]
+}
