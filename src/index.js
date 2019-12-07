@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import Typography from 'typography'
 
 const typography = new Typography({
-    baseFontSize: '18px',
+    baseFontSize: '17px',
     baseLineHeight: 2,
     headerFontFamily: ['Avenir Next', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
     bodyFontFamily: ['Georgia', 'serif'],

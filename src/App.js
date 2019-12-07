@@ -9,7 +9,7 @@ import HeightChartOptions from './Components/HeightChartOptions';
 import { euler, eulerHeight } from './Utils/Euler';
 import { rungeKutta, rungeKuttaHeight } from './Utils/RungeKutta';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   NavLink
@@ -26,7 +26,7 @@ const eulerVelocitySeries = [{ name: "Step 0.05", data: euler(freefall, 0, 0, 13
 { name: "Step 0.15", data: euler(freefall, 0, 0, 130, 0.15) },
 { name: "Step 0.2", data: euler(freefall, 0, 0, 130, 0.2) }];
 
-const landing = (time, speed, step) => {
+const landing = (time, speed) => {
   return freefall(time, speed);
 }
 
@@ -67,7 +67,7 @@ const deploymentHeight = rungeKuttaHeightSeries[0].data[indexOfDeploymentTime][1
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <HashRouter basename="/">
         <div className="App">
           <header className="App-header">
             <h1>Skydiving</h1>
@@ -102,7 +102,7 @@ function App() {
                 <li>Parachute deployed at: <b>{Math.round(deploymentHeightEuler * 100) / 100}m</b></li>
               </ul>
             </Route>
-            <Route exact path="/runge-kutta">
+            <Route exact path="/runge-kutta/">
               <h5 className="title">Velocity</h5>
               <LineChart options={VelocityChartOptions} series={rungeKuttaVelocitySeries} />
               <h5 className="title">Height</h5>
@@ -116,7 +116,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     </ThemeProvider >
   );
 }
