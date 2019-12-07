@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "857fdf40eca849b836b0e258e8c097f6",
+    "revision": "f1bd069b38735828676679912582bf77",
     "url": "/skydiving-ode/index.html"
   },
   {
-    "revision": "4729a9ae7621499e0718",
+    "revision": "d0dca47512d1881c1cc8",
     "url": "/skydiving-ode/static/css/main.b414bf1a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skydiving-ode/static/js/2.bf44add6.chunk.js.LICENSE"
   },
   {
-    "revision": "4729a9ae7621499e0718",
-    "url": "/skydiving-ode/static/js/main.ba104473.chunk.js"
+    "revision": "d0dca47512d1881c1cc8",
+    "url": "/skydiving-ode/static/js/main.3f95249a.chunk.js"
   },
   {
     "revision": "57dbec5b77b97a40666d",
