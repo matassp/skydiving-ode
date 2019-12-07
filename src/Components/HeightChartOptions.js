@@ -52,5 +52,8 @@ export default {
     },
     chart: {
         background: '#282c34',
-    },
+        zoom: {
+            enabled: false,
+        }
+    }
 }

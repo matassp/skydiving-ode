@@ -8,7 +8,7 @@ const getPointsEuler = (func, x, y, limit, step) => {
     return solution;
 }
 
-const euler2 = (func, x, v, h, limit, step) => {
+const getEulerHeight = (func, x, v, h, limit, step) => {
     const solution = [];
     while (x < limit) {
         solution.push([x, h]);
@@ -19,4 +19,4 @@ const euler2 = (func, x, v, h, limit, step) => {
     return solution;
 }
 
-export { getPointsEuler, euler2 };
+export { getPointsEuler, getEulerHeight };

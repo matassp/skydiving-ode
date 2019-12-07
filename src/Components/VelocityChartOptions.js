@@ -50,6 +50,10 @@ export default {
         mode: 'dark',
     },
     chart: {
+        id: 'pirmas',
         background: '#282c34',
+        zoom: {
+            enabled: false,
+        }
     },
 }
