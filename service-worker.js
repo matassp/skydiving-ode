@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/skydiving-ode/precache-manifest.1faaf617b9dba9732c884855dad16626.js"
+  "/skydiving-ode/precache-manifest.6e18d2dafdf5f02fc6c267ed9e3285f4.js"
 );
 
 self.addEventListener('message', (event) => {
